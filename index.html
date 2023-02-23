@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google!</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        
+        #blue-box-1 {
+            background-color:#7EE5DA;
+            width:31%;
+            float:left;
+            height:auto;
+            text-align: center;
+            margin:1px;
+            padding:10px;
+            
+        }
+
+        #blue-box-2 {
+            background-color:#70CCC2;
+            width:18%;
+            float:left;
+            height:Auto;
+            text-align: center;
+            margin:1px;
+            padding:1px;
+        }
+
+        #blue-box-3 {
+            background-color: #62B3AA;
+            width:48.9%;
+            float:left;
+            text-align: center;
+            margin:1px;
+        }
+       #footer {
+            text-align: center;
+            
+       }
+    </style>
+</head>
+<body>
+    <!--Farklı farklı elementler ve css'ler deneyerek benzer tasarım yapmaya çalıştım.
+    Amacım tasarımı birebir yapmak değildi, bu yüzden pozisyon değerlerinde birazcık fark var.-->
+        <center>
+            <img src="img/google.jpg" alt="Google!" title="Google!">
+        </center>
+
+        <center id="search" style="background-color:#EEE; height: auto;">
+            <div>Search the web using Google!</div>
+            <input type="text" name="search-engine" value="" size="40"><br>
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+        </center>
+        <div id="blue-box-1">
+            Special Searches<br>
+            <a href="">Stanford Search</a><br>
+            <a href="">Linux Search</a>
+        </div>
+        <div id="blue-box-2">
+            <small><a href="">Help!</a></small><br>
+            <small><a href="">About Google!</a></small><br>
+            <small><a href="">Company Info</a></small><br>
+            <small><a href="">Google! Logos</a></small>
+        </div>
+        <div id="blue-box-3">
+            <small>Get Google!<br>
+            updates monthly:</small><br>
+            <input type="text" name="your-email" value="your e-mail"><br>
+            <input id="subscribe" type="button" value="Subscribe">
+            <small><a href="">Archive</a></small>
+        </div> 
+        
+        <div id="footer">
+            <small>Copyright &copy;1998 Google Inc.</small>
+        </div>
+</body>
+</html>
